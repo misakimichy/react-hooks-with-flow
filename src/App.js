@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import Flow from './Flow'
 import HooksUseState from './HooksUseState'
+import HooksUseEffect from './HooksUseEffect'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         array={[1, 10, 5, 45, 23]}
       />
       <HooksUseState />
+      <HooksUseEffect />
     </div>
   );
 }
