@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import Flow from './Flow'
+import HooksUseState from './HooksUseState'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
         num={123}
         array={[1, 10, 5, 45, 23]}
       />
+      <HooksUseState />
     </div>
   );
 }
