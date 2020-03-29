@@ -3,10 +3,15 @@ import React, { useState, useEffect } from 'react'
 const HooksUseEffect = () => {
     const [count, setCount] = useState(0)
 
-    // Like a componentDidMount and componentDidUpdate
+    // ComponentDidMount: This run once on mount. Pass an empty array.
+    // useEffect(() => {
+    //     document.title = `You clicked ${count} times.`
+    // }, [])
+
+    // ComponentDidUpdate: only run if count changes
     useEffect(() => {
         document.title = `You clicked ${count} times.`
-    })
+    }, [count])
 
     return(
         <div>

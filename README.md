@@ -3,13 +3,29 @@
 #### _React Hooks and Flow example repo: Last Update 03/26/2020_
 
 React Hooks with [Flow](https://flow.org/en/)
-## 
 
-## Run Flow
-Check code with this code:
+## Flow
+Check code in Flow component. This component has `props` with `TestProps` data type, which requires `str` in string type, `array` in int array type and _optional_ of `num` in number type.
+Array will be map through each value when it's rendered.
+
+Run Flow with this code:
 ```
 $ npm run flow
 ```
+
+## Hooks
+### useState
+
+
+### useEffect
+
+### useContext
+    `useContext()` is a way to consume data from multiple context.
+
+### useReducer
+
+
+
 
 ## Installation:
 Clone this repo and play with the codes
