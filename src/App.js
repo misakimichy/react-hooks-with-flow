@@ -4,6 +4,7 @@ import Flow from './Flow'
 import HooksUseState from './HooksUseState'
 import HooksUseEffect from './HooksUseEffect'
 import HooksUseContext from './HooksUseContext'
+import HooksUseReducer from './HooksUseReducer'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <HooksUseState />
       <HooksUseEffect />
       <HooksUseContext />
+      <HooksUseReducer />
     </div>
   );
 }
